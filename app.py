@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Docker image changed -v2'
+    return 'Docker image changed -v3'
